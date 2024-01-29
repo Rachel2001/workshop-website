@@ -1,5 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   padding: 20px 0;
+  margin: 0;
 }
 
 nav ul {
@@ -25,6 +35,6 @@ nav a {
   border: none;
 }
 
-h1 {
-  text-align: center;
-}
+
+
+
