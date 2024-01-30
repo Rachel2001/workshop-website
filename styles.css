@@ -105,6 +105,17 @@ footer {
   height: 600px;
 }
 
+.heading-2 {
+  font-size: 30px;
+}
+
+.short-text {
+  font-size: 20px;
+}
+
+.container-paragraph {
+  padding: 20px;
+}
 
 
 
