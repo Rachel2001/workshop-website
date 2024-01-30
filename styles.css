@@ -31,7 +31,7 @@ nav a {
   border: none;
 }
 
-section {
+.title {
   background: url(images/car\ pic\ background\ \(1\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,6 +46,67 @@ section {
   align-items: center;
   color: white;
 }
+
+.container-content {
+  padding: 60px;
+  background: #CE2026;
+}
+
+.features {
+  background-color: #F2F2F2;
+  padding: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.container-icons {
+  padding: 20px;
+  color: #CE2026;
+  font-size: 80px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+.container-info {
+  padding: 50px;
+}
+
+h4 {
+  padding: 20px;
+}
+
+.btn-book-now {
+  background-color: #CE2026;
+  padding: 20px;
+}
+
+.btn-book-now:hover {
+  background-color: purple;
+}
+
+footer {
+  padding: 50px;
+  color: white;
+  background-color: #1C1C1C;
+}
+
+.container {
+  padding: 50px;
+}
+
+.picture-2 {
+  width: 400px;
+  height: 600px;
+}
+
+
+
 
 
 
