@@ -2,10 +2,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
-  margin: 0;
-  padding: 0;
-}
 
 nav {
   padding: 20px 0;
@@ -33,6 +29,22 @@ nav a {
   width: 100px;
   height: auto;
   border: none;
+}
+
+section {
+  background: url(images/car\ pic\ background\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 0;
+  height: 500px;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 
