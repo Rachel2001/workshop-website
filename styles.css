@@ -117,7 +117,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   margin: 20px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -130,11 +130,77 @@ h4 {
 #map {
   height: 200px;
   width: 50%;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 footer {
   padding: 50px;
   color: white;
   background-color: #1c1c1c;
+}
+
+@media (max-width: 767px) {
+  .navigation {
+    padding: 10px 0;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .contact-form-container {
+    padding: 20px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .paragraph-1,
+  .paragraph-2 {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .paragraph-1 p,
+  .paragraph-2 p {
+    font-size: 14px;
+  }
+
+  .btn-book-now {
+    width: 100%;
+  }
+
+  #contactForm {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  label,
+  input,
+  textarea {
+    display: block;
+    margin: 10px 0;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  #map {
+    height: 200px;
+  }
+
+  .container-contact-info {
+    padding: 20px;
+  }
+
+  .col {
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
 }
