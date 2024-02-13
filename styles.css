@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Arial", sans-serif;
 }
 
 nav {
@@ -49,11 +50,11 @@ nav a {
 
 .container-content {
   padding: 60px;
-  background: #CE2026;
+  background: #ce2026;
 }
 
 .features {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 150px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -65,7 +66,7 @@ h2 {
 
 .container-icons {
   padding: 20px;
-  color: #CE2026;
+  color: #ce2026;
   font-size: 80px;
 }
 
@@ -82,18 +83,12 @@ h4 {
 }
 
 .btn-book-now {
-  background-color: #CE2026;
+  background-color: #ce2026;
   padding: 20px;
 }
 
 .btn-book-now:hover {
   background-color: purple;
-}
-
-footer {
-  padding: 50px;
-  color: white;
-  background-color: #1C1C1C;
 }
 
 .container {
@@ -117,8 +112,29 @@ footer {
   padding: 20px;
 }
 
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: #F2F2F2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+#contactForm {
+  max-width: 400px;
+  width: 100%;
+}
 
+#map {
+  height: 200px;
+  width: 50%;
+  margin-top: 20px; 
+}
 
-
-
+footer {
+  padding: 50px;
+  color: white;
+  background-color: #1c1c1c;
+}
