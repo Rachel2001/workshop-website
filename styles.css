@@ -48,6 +48,8 @@ nav a {
   color: white;
 }
 
+
+
 .container-content {
   padding: 60px;
   background: #ce2026;
@@ -137,6 +139,24 @@ footer {
   padding: 50px;
   color: white;
   background-color: #1c1c1c;
+}
+
+.title h1.animate__fadeInDownBig,
+.title p.animate__fadeInDownBig {
+  animation: animate__fadeInDownBig;
+  animation-duration: 1s;
+}
+
+
+@keyframes animate__fadeInDownBig {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 767px) {
