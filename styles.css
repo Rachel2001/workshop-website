@@ -33,7 +33,7 @@ nav a {
 }
 
 .title {
-  background: url(images/car\ pic\ background\ \(1\).jpg);
+  background: url(images/car\pic\background\\(1\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -47,8 +47,6 @@ nav a {
   align-items: center;
   color: white;
 }
-
-
 
 .container-content {
   padding: 60px;
@@ -146,7 +144,6 @@ footer {
   animation: animate__fadeInDownBig;
   animation-duration: 1s;
 }
-
 
 @keyframes animate__fadeInDownBig {
   from {
